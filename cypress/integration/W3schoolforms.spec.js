@@ -28,14 +28,19 @@ context('w3schools', () => {
         .first()
         .click()
       // https://www.w3schools.com/action_page.php?fname=Martina&lname=Kohutova
-
-      it('.should() - go to different page', () => {
-        cy.contains('SQL')
-          .click()
-        cy.location().should((location) => {
-          expect(location.href).to.eq('https://www.w3schools.com/sql/default.asp')
-        })
+    })
+    it('.should() - go to different page', () => {
+      cy.contains('SQL')
+        .click()
+      cy.location().should((location) => {
+        expect(location.href).to.eq('https://www.w3schools.com/sql/default.asp')
       })
+    })
+    it('.should() - calls the length', () => {
+      cy.get('input[name="gender"]')
+        // calls the 'length' property yielding that value
+        .its('length')
+        .should('be.gt', 2)
     })
   })
 
