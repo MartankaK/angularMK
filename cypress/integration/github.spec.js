@@ -8,7 +8,7 @@ context('github', () => {
   })
 
   describe('as an offline user', () => {
-    it('should find the user profile', () => {
+    it('should find a user profile', () => {
       cy.get('.js-details-target')
         .first()
         .click()
