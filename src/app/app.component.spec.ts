@@ -30,4 +30,19 @@ describe('AppComponent', () => {
     const compiled = fixture.nativeElement;
     expect(compiled.querySelector('.content span').textContent).toContain('angularMK app is running!');
   });
+
+  it(`should add two numbers`, () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    const result = app.addTwoNumbers(3, 6);
+    expect(result).toEqual(9);
+  });
+
+  it(`should subtract two numbers and then make a square`, () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    const result = app.makeSquare(4, 1, 2);
+    expect(result).toEqual(9);
+  });
+
 });
