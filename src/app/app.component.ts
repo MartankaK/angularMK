@@ -12,7 +12,7 @@ export class AppComponent {
   addTwoNumbers(a: number, b: number): number {
     return a + b;
   }
-  makeSquare(a:number, b:number, c:number): number {
+  makeSquare(a: number, b: number, c: number): number {
     return (a - b) ** c;
   }
 }
