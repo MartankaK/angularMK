@@ -6,8 +6,8 @@ context('cypressdocs', () => {
   beforeEach(() => {
     cy.visit('https://docs.cypress.io/guides/overview/why-cypress')
   })
-  describe('Implicit Assertions', () => {
-    it('.should() - make an assertion about the current subject', () => {
+  describe('as offline user', () => {
+    it('.should() - find videos through search', () => {
       cy.wait(500)
       cy.get('.DocSearch-Button-Placeholder')
         .contains('Search')
@@ -17,22 +17,27 @@ context('cypressdocs', () => {
         .type('videos')
         .wait(1000)
         .type('{enter}')
+    })
 
-      // describe('Implicit Assertions', () => {
-      //   it('.should() - make an assertion about the current subject', () => {
-      //     cy.get('.sr-only')
-      //       .contains('main menu')
-      //       .click()
-      //     cy.get('.rounded-md')
-      //       .contains('Videos')
-      //       .click()
-      //   })
-      //   it('.should() - go to different page', () => {
-      //     cy.contains('Tips & Tricks')
-      //       .click()
-      //     cy.location().should((location) => {
-      //       expect(location.href).to.eq('https://www.w3schools.com/sql/default.asp')
-      //     })
+    it('.should() - find tutorial videos', () => {
+      cy.wait(1000)
+      cy.get('button.inline-flex')
+        .click()
+      cy.get('.text-base')
+        .contains('Examples')
+        .click()
+      cy.wait(500)
+      cy.get('button.inline-flex')
+        .click()
+      cy.get('.rounded-md')
+        .contains('Tutorial Videos')
+        .click()
+      // cy.wait(1000)
+      // cy.get('li')
+      //   .contains('Organizing Tests')
+      //   .click()
+      // cy.location().should((location) => {
+      //   expect(location.href).to.eq('https://www.youtube.com/playlist?list=PLP9o9QNnQuAYYRpJzDNWpeuOVTwxmIxcI')
       // })
     })
   })
