@@ -1,0 +1,362 @@
+[
+    {
+        "name": "cypress",
+        "scope": "unscoped",
+        "version": "7.2.0",
+        "description": "Cypress.io end to end testing tool",
+        "keywords": [
+            "automation",
+            "browser",
+            "cypress",
+            "cypress.io",
+            "e2e",
+            "end-to-end",
+            "integration",
+            "mocks",
+            "runner",
+            "spies",
+            "stubs",
+            "test",
+            "testing"
+        ],
+        "date": "2021-04-26T20:56:45.272Z",
+        "links": {
+            "npm": "https://www.npmjs.com/package/cypress",
+            "homepage": "https://github.com/cypress-io/cypress",
+            "repository": "https://github.com/cypress-io/cypress",
+            "bugs": "https://github.com/cypress-io/cypress/issues"
+        },
+        "author": {
+            "name": "Brian Mann"
+        },
+        "publisher": {
+            "username": "flotwig",
+            "email": "npm@chary.us"
+        },
+        "maintainers": [
+            {
+                "username": "cypress-npm-publisher",
+                "email": "cypress-npm-publisher@cypress.io"
+            },
+            {
+                "username": "bahmutov",
+                "email": "gleb.bahmutov@gmail.com"
+            },
+            {
+                "username": "chrisbreiding",
+                "email": "chris@chrisbreiding.com"
+            },
+            {
+                "username": "brian-mann",
+                "email": "brian.mann86@gmail.com"
+            },
+            {
+                "username": "bkucera",
+                "email": "benkucera+npm@gmail.com"
+            },
+            {
+                "username": "flotwig",
+                "email": "npm@chary.us"
+            }
+        ]
+    },
+    {
+        "name": "cypress-cucumber-preprocessor",
+        "scope": "unscoped",
+        "version": "4.1.0",
+        "description": "Run gherkin-syntaxed specs with cypress.io",
+        "keywords": [
+            "cucumber",
+            "gherkin",
+            "cypress",
+            "testing"
+        ],
+        "date": "2021-04-22T07:49:53.185Z",
+        "links": {
+            "npm": "https://www.npmjs.com/package/cypress-cucumber-preprocessor",
+            "homepage": "https://github.com/TheBrainFamily/cypress-cucumber-preprocessor#readme",
+            "repository": "https://github.com/TheBrainFamily/cypress-cucumber-preprocessor",
+            "bugs": "https://github.com/TheBrainFamily/cypress-cucumber-preprocessor/issues"
+        },
+        "author": {
+            "name": "Lukasz Gandecki"
+        },
+        "publisher": {
+            "username": "lgandecki",
+            "email": "lgandecki@thebrain.pro"
+        },
+        "maintainers": [
+            {
+                "username": "lgandecki",
+                "email": "lgandecki@thebrain.pro"
+            }
+        ]
+    },
+    {
+        "name": "cypress-select-tests",
+        "scope": "unscoped",
+        "version": "1.7.0",
+        "description": "User space solution for picking Cypress tests to run",
+        "keywords": [
+            "cypress",
+            "cypress-io",
+            "cypress-plugin",
+            "cypress-preprocessor"
+        ],
+        "date": "2021-03-22T13:18:17.606Z",
+        "links": {
+            "npm": "https://www.npmjs.com/package/cypress-select-tests",
+            "homepage": "https://github.com/bahmutov/cypress-select-tests#readme",
+            "repository": "https://github.com/bahmutov/cypress-select-tests",
+            "bugs": "https://github.com/bahmutov/cypress-select-tests/issues"
+        },
+        "author": {
+            "name": "Gleb Bahmutov",
+            "email": "gleb.bahmutov@gmail.com",
+            "username": "bahmutov"
+        },
+        "publisher": {
+            "username": "bahmutov",
+            "email": "gleb.bahmutov@gmail.com"
+        },
+        "maintainers": [
+            {
+                "username": "bahmutov",
+                "email": "gleb.bahmutov@gmail.com"
+            }
+        ]
+    },
+    {
+        "name": "cypress-react-selector",
+        "scope": "unscoped",
+        "version": "2.3.6",
+        "description": "cypress plugin to locate react elements by component, props and state",
+        "keywords": [
+            "react",
+            "cypress",
+            "cypress-plugin",
+            "cypress-react",
+            "cypress-io"
+        ],
+        "date": "2021-02-04T10:26:55.034Z",
+        "links": {
+            "npm": "https://www.npmjs.com/package/cypress-react-selector",
+            "homepage": "https://github.com/abhinaba-ghosh/cypress-react-selector#readme",
+            "repository": "https://github.com/abhinaba-ghosh/cypress-react-selector",
+            "bugs": "https://github.com/abhinaba-ghosh/cypress-react-selector/issues"
+        },
+        "author": {
+            "name": "Abhinaba Ghosh",
+            "email": "askabhinaba@gmail.com",
+            "username": "abhinaba-ghosh"
+        },
+        "publisher": {
+            "username": "abhinaba-ghosh",
+            "email": "askabhinaba@gmail.com"
+        },
+        "maintainers": [
+            {
+                "username": "bahmutov",
+                "email": "gleb.bahmutov@gmail.com"
+            },
+            {
+                "username": "laurence-myers",
+                "email": "laurencedougalmyers@gmail.com"
+            },
+            {
+                "username": "abhinaba-ghosh",
+                "email": "askabhinaba@gmail.com"
+            }
+        ]
+    },
+    {
+        "name": "cypress-audit",
+        "scope": "unscoped",
+        "version": "0.3.0",
+        "description": "<h5 align=\"center\"> Run <a href=\"https://developers.google.com/web/tools/lighthouse\">Lighthouse</a> and <a href=\"https://github.com/pa11y/pa11y\">Pa11y</a> audits directly in <a href=\"https://cypress.io/\">Cypress</a> test suites </h5>",
+        "date": "2020-12-29T08:26:11.696Z",
+        "links": {
+            "npm": "https://www.npmjs.com/package/cypress-audit",
+            "homepage": "https://github.com/mfrachet/cypress-audit#readme",
+            "repository": "https://github.com/mfrachet/cypress-audit",
+            "bugs": "https://github.com/mfrachet/cypress-audit/issues"
+        },
+        "author": {
+            "name": "Marvin FRACHET",
+            "email": "marvin.frachet@gmail.com",
+            "url": "https://github.com/mfrachet",
+            "username": "skahrz"
+        },
+        "publisher": {
+            "username": "skahrz",
+            "email": "marvin.frachet@gmail.com"
+        },
+        "maintainers": [
+            {
+                "username": "skahrz",
+                "email": "marvin.frachet@gmail.com"
+            }
+        ]
+    },
+    {
+        "name": "cypress-wait-until",
+        "scope": "unscoped",
+        "version": "1.7.1",
+        "description": "A waiting plugin for Cypress",
+        "keywords": [
+            "cypress",
+            "promise",
+            "recursive-promise",
+            "wait",
+            "open-source-saturday"
+        ],
+        "date": "2020-05-13T06:29:46.774Z",
+        "links": {
+            "npm": "https://www.npmjs.com/package/cypress-wait-until",
+            "homepage": "https://github.com/NoriSte/cypress-wait-until#readme",
+            "repository": "https://github.com/NoriSte/cypress-wait-until",
+            "bugs": "https://github.com/NoriSte/cypress-wait-until/issues"
+        },
+        "author": {
+            "name": "NoriSte",
+            "email": "nori.ste.magni@gmail.com",
+            "username": "noriste"
+        },
+        "publisher": {
+            "username": "noriste",
+            "email": "nori.ste.magni@gmail.com"
+        },
+        "maintainers": [
+            {
+                "username": "noriste",
+                "email": "nori.ste.magni@gmail.com"
+            }
+        ]
+    },
+    {
+        "name": "cypress-reports",
+        "scope": "unscoped",
+        "version": "3.1.4",
+        "description": "Reporting library for Cypress tests.",
+        "keywords": [
+            "cypress",
+            "reports",
+            "test reports",
+            "dashboard",
+            "tests",
+            "testing"
+        ],
+        "date": "2021-04-26T00:18:00.227Z",
+        "links": {
+            "npm": "https://www.npmjs.com/package/cypress-reports",
+            "homepage": "http://cypress-dashboard.endymion.io/",
+            "repository": "https://github.com/kristijan-pajtasev/cypress-report",
+            "bugs": "https://github.com/kristijan-pajtasev/cypress-report/issues"
+        },
+        "author": {
+            "name": "Kristijan Pajtasev"
+        },
+        "publisher": {
+            "username": "kpajtasev",
+            "email": "kristijan.pajtasev@hotmail.com"
+        },
+        "maintainers": [
+            {
+                "username": "kpajtasev",
+                "email": "kristijan.pajtasev@hotmail.com"
+            }
+        ]
+    },
+    {
+        "name": "cypress-dashboard",
+        "scope": "unscoped",
+        "version": "3.1.4",
+        "description": "Reporting library for Cypress tests.",
+        "keywords": [
+            "cypress",
+            "reports",
+            "test reports",
+            "dashboard",
+            "tests",
+            "testing"
+        ],
+        "date": "2021-04-26T00:18:09.190Z",
+        "links": {
+            "npm": "https://www.npmjs.com/package/cypress-dashboard",
+            "homepage": "http://cypress-dashboard.endymion.io/",
+            "repository": "https://github.com/kristijan-pajtasev/cypress-report",
+            "bugs": "https://github.com/kristijan-pajtasev/cypress-report/issues"
+        },
+        "author": {
+            "name": "Kristijan Pajtasev"
+        },
+        "publisher": {
+            "username": "kpajtasev",
+            "email": "kristijan.pajtasev@hotmail.com"
+        },
+        "maintainers": [
+            {
+                "username": "kpajtasev",
+                "email": "kristijan.pajtasev@hotmail.com"
+            }
+        ]
+    },
+    {
+        "name": "@cypress/json-schemas",
+        "scope": "cypress",
+        "version": "5.38.1",
+        "description": "Cypress JSON schemas",
+        "date": "2021-04-23T21:33:31.263Z",
+        "links": {
+            "npm": "https://www.npmjs.com/package/%40cypress%2Fjson-schemas"
+        },
+        "author": {
+            "name": "Gleb Bahmutov",
+            "email": "gleb@cypress.io"
+        },
+        "publisher": {
+            "username": "cypress-npm-publisher",
+            "email": "cypress-npm-publisher@cypress.io"
+        },
+        "maintainers": [
+            {
+                "username": "cypress-npm-publisher",
+                "email": "cypress-npm-publisher@cypress.io"
+            }
+        ]
+    },
+    {
+        "name": "cypress-example-kitchensink",
+        "scope": "unscoped",
+        "version": "1.14.0",
+        "description": "This is an example app used to showcase Cypress.io testing. For a full reference of our documentation, go to https://docs.cypress.io",
+        "date": "2021-01-27T02:58:01.728Z",
+        "links": {
+            "npm": "https://www.npmjs.com/package/cypress-example-kitchensink",
+            "homepage": "https://github.com/cypress-io/cypress-example-kitchensink#readme",
+            "repository": "https://github.com/cypress-io/cypress-example-kitchensink",
+            "bugs": "https://github.com/cypress-io/cypress-example-kitchensink/issues"
+        },
+        "author": {
+            "name": "Brian Mann"
+        },
+        "publisher": {
+            "username": "cypress-npm-publisher",
+            "email": "cypress-npm-publisher@cypress.io"
+        },
+        "maintainers": [
+            {
+                "username": "cypress-npm-publisher",
+                "email": "cypress-npm-publisher@cypress.io"
+            },
+            {
+                "username": "brian-mann",
+                "email": "brian.mann86@gmail.com"
+            },
+            {
+                "username": "jennifer-shehane",
+                "email": "shehane.jennifer@gmail.com"
+            }
+        ]
+    }
+]
