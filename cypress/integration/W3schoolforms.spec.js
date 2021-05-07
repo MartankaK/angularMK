@@ -5,7 +5,9 @@ const { Input } = require("@angular/core")
 context('w3schools', () => {
   beforeEach(() => {
     cy.visit('https://www.w3schools.com/html/html_forms.asp')
-    cy.contains('Accept all').click()
+    cy.get('#accept-choices').then((btn) => {
+      btn.trigger('click')
+    })
   })
 
   describe('Implicit Assertions', () => {
