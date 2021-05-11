@@ -52,4 +52,24 @@ describe('AppComponent', () => {
     expect(result).toEqual(['foo', 'baz']);
   });
 
+  it(`should multiply two numbers`, () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    const result = app.multiplyTwoNumbers(4, 6);
+    expect(result).toEqual(24);
+  });
+
+  it(`should divide three numbers`, () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    const result = app.divideThreeNumbers(12,3,2);
+    expect(result).toEqual(2);
+  });
+
+  it(`should divide three numbers`, () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    const result = app.divideThreeNumbers(12,3,0);
+    expect(result).toEqual(0);
+  });
 });

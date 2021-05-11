@@ -11,8 +11,8 @@ let myObject = {
 } 
 
 class MyClass {
-  title = 'mojaKlasa'
-  getComments() {
+  title: string = 'mojaKlasa'
+  getComments(): string[] {
     return comments
   }
 }
@@ -36,5 +36,14 @@ export class AppComponent {
   }
   makeSquare(a: number, b: number, c: number): number {
     return (a - b) ** c;
+  }
+  multiplyTwoNumbers(a: number, b:number): number {
+    return a * b;
+  }
+  divideThreeNumbers(a: number, b:number, c:number): number {
+    if (b === 0 || c === 0) {
+      return 0
+    }
+    return a/b/c;
   }
 }
