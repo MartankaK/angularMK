@@ -1,5 +1,24 @@
 import { Component } from '@angular/core';
 
+let title = 'angularMK'
+let arr: number[] = [1,2,3,4];
+let comments: string[] = ['foo', 'baz'];
+
+let myObject = {
+  title: 'angularMK',
+  myArray: [5,4,3,2,1],
+  myNull: null,
+} 
+
+class MyClass {
+  title = 'mojaKlasa'
+  getComments() {
+    return comments
+  }
+}
+
+let myClassInstance = new MyClass()
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -9,6 +28,9 @@ export class AppComponent {
   title = 'angularMK';
   subTitle = 'MartankaK';
   subTitle2 = 'MK';
+  getMyClassComments() {
+    return myClassInstance.getComments()
+  }
   addTwoNumbers(a: number, b: number): number {
     return a + b;
   }

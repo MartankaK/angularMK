@@ -45,4 +45,11 @@ describe('AppComponent', () => {
     expect(result).toEqual(9);
   });
 
+  it(`should return comments`, () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    const result = app.getMyClassComments();
+    expect(result).toEqual(['foo', 'baz']);
+  });
+
 });

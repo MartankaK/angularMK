@@ -27,15 +27,15 @@ context('github', () => {
 
     it('should find Team and GitHub free', () => {
       cy.get('.octicon-three-bars')
-      .first()
-      .click()
+        .first()
+        .click()
       cy.get('.HeaderMenu-link')
         .contains('Team')
         .click()
       cy.get('.btn-block')
         .contains('Get started for free')
         .click()
-        cy.get('form')
+      cy.get('form')
         .get('input[name="all_emails"]')
         .click()
     })
