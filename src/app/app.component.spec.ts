@@ -62,14 +62,29 @@ describe('AppComponent', () => {
   it(`should divide three numbers`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    const result = app.divideThreeNumbers(12,3,2);
+    const result = app.divideThreeNumbers(12, 3, 2);
     expect(result).toEqual(2);
   });
 
   it(`should divide three numbers`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    const result = app.divideThreeNumbers(12,3,0);
+    const result = app.divideThreeNumbers(12, 3, 0);
     expect(result).toEqual(0);
   });
+
+  it(`should return first hobby`, () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    const result = app.getMyFirstHobby();
+    expect(result).toEqual('TableTennis');
+  });
+  
+  it(`should return first flower`, () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    const result = app.getFirstColour();
+    expect(result).toEqual('pink');
+  });
+
 });
